@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow: hidden; Optional: to prevent scrollbars */
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+#bg-video{
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#489bdf,#eceaf9);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.card input{
+    border: 0;
+    outline: 0;
+    background: #edfffc;
+    color:#555;
+    padding: 10px 52px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+.cityname{
+    padding: 1vh 2.8vw;
+    margin: 1.5vh;
+}
+
+.search{
+    width: 72%;
+    padding: .5vh;
+    border-radius:2vh;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    background: #ebfffc;
+}
+
+.search:hover{
+    background-color: rgb(62, 57, 57);
+    color: white;
+}
+
+.weather-icon{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: -65px;
+}
+
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #000;
+}
+
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -50px;
+    color: #000;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+    color: #383131;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 8vh;
+    margin-right: 20px;
+}
